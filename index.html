@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <title>Registration Form</title>
@@ -34,6 +34,21 @@
             </select>
             <label for="Day">Day:</label>
             <input type="number" id="Day" name="Day" min="1" max="31">
+            <table>
+                <tr>
+                    <th>Time (Hours):</th>
+                    <th>Time (Minutes):</th>
+                    <th>Building:</th>
+                    <th>Room:</th>
+                </tr>
+                <tr>
+                    <td><input type="number" id="TH" name="TH" min="1" max="12"></td>
+                    <td><input type="number" id="TM" name="TM" min="0" max="50"></td>
+                    <td><input type="text" id="Building" name="Building"></td>
+                    <td><input type="text" id="Room" name="Room"></td>
+                </tr>
+            </table>
+
             <label for="am">AM</label>
             <input type="radio" id="am" name="am">
             <label for="pm">PM</label>
