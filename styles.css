@@ -6,12 +6,15 @@ File name: styles.css
 */
 
 /*html*/
+
 html {
     background-image: linear-gradient(to bottom, rgb(195, 219, 235), rgb(132, 162, 245));
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 body {
-    background-color: blue;
+    background-color: rgb(241, 246, 255);
     box-shadow: 0 0 10px 4px #2c2a969c;
 }
 
@@ -53,13 +56,6 @@ label {
     font-weight: lighter;
 }
 
-th {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    background-color: rgb(26, 26, 100);
-    color: white;
-}
-
 /*Student Info*/
 
 #studinfo {
@@ -69,25 +65,18 @@ th {
 /*Date and Time*/
 
 #DaT {
-    outline: rgb(26, 26, 100) solid 1px;
-}
-
-
-tr {
-    outline: rgb(26, 26, 100) solid 1px;
-}
-
-th {
-    outline: rgb(135, 190, 235) solid 1px;
-}
-
-td {
-    outline: rgb(26, 26, 100) solid 1px;
+    outline: rgb(0, 0, 0) solid 1px;
 }
 
 /*Classes*/
 
 #CaT {
+    outline: black solid 1px;
+}
+
+/*Additional Info*/
+
+#AddInfo {
     outline: black solid 1px;
 }
 

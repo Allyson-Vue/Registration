@@ -14,7 +14,7 @@
 </head>
 <body>
     <header><h1>Advisory Registration Form</h1></header>
-    <form>
+    <form method="get" action="thankyou.html">
         <h2>Student Information:</h2>
         <section id="studinfo">
             <div id="studname">
@@ -55,24 +55,11 @@
             <div id="time">
             <h3>Time:</h3>
             <div id="timeselect">
-            <table>
-                <tr>
-                    <th>Time (Hours):</th>
-                    <th>Time (Minutes):</th>
-                    <th>Building:</th>
-                    <th>Room:</th>
-                </tr>
-                <tr>
-                    <td><input type="number" id="TH" name="TH" min="1" max="12"></td>
-                    <td><input type="number" id="TM" name="TM" min="0" max="50"></td>
-                    <td><input type="text" id="Building" name="Building"></td>
-                    <td><input type="text" id="Room" name="Room"></td>
-                </tr>
             </table>
             <label for="am">AM</label>
-            <input type="radio" id="am" name="APM">
+            <input type="radio" id="am" name="AM/PM">
             <label for="pm">PM</label>
-            <input type="radio" id="pm" name="APM">
+            <input type="radio" id="pm" name="AM/PM">
             </div>
             </div>
         </section>
@@ -101,6 +88,10 @@
                 <option value="JackL">Jackson Lewis</option>
             </div>
             </select>
+        </section>
+        <h2>Additional Information:</h2>
+        <section id="AddInfo">
+            <textarea name="Additional Info" rows="10" cols="73"></textarea>
         </section>
         <section id="subbutton">
             <input type="submit" id="submit" name="submit">

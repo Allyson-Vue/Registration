@@ -17,6 +17,10 @@ header {
 }
 
 /*body*/
+html {
+    min-height: 100%;
+}
+
 body {
     display: block;
     margin-left: auto;
@@ -28,6 +32,10 @@ body {
 /*Form*/
 
 form {
+    padding: 15px;
+}
+
+.container {
     padding: 15px;
 }
 
@@ -83,6 +91,13 @@ form {
 #prof {
     margin: 1px;
     padding: 2px;
+}
+
+/*Additional Info*/
+
+#AddInfo {
+    margin: 2px;
+    padding: 5px;
 }
 
 #subbutton {
