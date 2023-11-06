@@ -17,7 +17,23 @@
             <input type="email" id="email" name="email">
         </section>
         <section id="time">
-            <h3>Appointment Time:</h3>
+            <h3>Scheduling:</h3>
+            <select id="Months" name="Months">
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="Jul">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+            </select>
+            <label for="Day">Day:</label>
+            <input type="number" id="Day" name="Day" min="1" max="31">
             <label for="am">AM</label>
             <input type="radio" id="am" name="am">
             <label for="pm">PM</label>
@@ -25,16 +41,24 @@
         </section>
         <section id="classes">
             <h3>Classes:</h3>
-            <label for="DigiAniI">Digital Animation I</label>
-            <input type="radio" id="DigiAniI" name="DigiAniI">
-            <label for="DigiAniII">Digital Animation II</label>
-            <input type="radio" id="DigiAniII" name="DigiAniII">
-            <label for="DigiArtI">Digital Art I</label>
-            <input type="radio" id="DigiArtI" name="DigiArtI">
-            <label for="DigiArtII">Digital Art II</label>
-            <input type="radio" id="DigiArtII" name="DigiArtII">
-            <label for="AniHist">Animation History</label>
-            <input type="radio" id="AniHist" name="AniHist">
+            <label for="IntroWeb">Intro to Web Development</label>
+            <input type="radio" id="IntroWeb" name="IntroWeb">
+            <label for="WebDevI">Web Development I</label>
+            <input type="radio" id="WebDevI" name="WebDevI">
+            <label for="WebDevII">Web Development II</label>
+            <input type="radio" id="WebDevII" name="WebDevII">
+            <label for="IntroComPro">Intro to Computer Programming</label>
+            <input type="radio" id="IntroComPro" name="IntroComPro">
+            <label for="ComProI">Computer Programming I</label>
+            <input type="radio" id="ComProI" name="ComProI">
+            <label for="ComProII" name="ComProII">Computer Programming II</label>
+            <input type="radio" id="ComProII" name="ComProII">
+            <h4>Teachers:</h4>
+            <select id="teachers" name="teachers">
+                <option value="TiffF">Tiffany Ford</option>
+                <option value="KirM">Kirsten Markley</option>
+                <option value="JackL">Jackson Lewis</option>
+            </select>
         </section>
         <section id="subbutton">
             <input type="submit" id="submit" name="submit">
