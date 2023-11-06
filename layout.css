@@ -5,11 +5,94 @@ Date: 11/05/2023
 File name: layout.css
 */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header*/
+header {
+    margin: 0px;
+    padding: 25px;
+}
+
 /*body*/
 body {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
-    padding: 25px;
+    padding: 0px;
+}
+
+/*Form*/
+
+form {
+    padding: 15px;
+}
+
+/*Student Info*/
+
+#studinfo {
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+}
+
+#studname {
+    margin: 5px;
+    padding: 5px;
+}
+
+#studemail {
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Scheduling:*/
+
+#DaT {
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+#DSelect {
+    margin: 5px;
+}
+
+/*Classes and Teachers*/
+
+#CaT {
+    padding: 10px;
+    margin: 5px;
+}
+
+#classes {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+}
+
+#prof {
+    margin: 1px;
+    padding: 2px;
+}
+
+#subbutton {
+    margin: 5px;
+}
+
+/*Footer*/
+
+footer {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
 }

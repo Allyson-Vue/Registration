@@ -7,9 +7,96 @@ File name: styles.css
 
 /*html*/
 html {
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, rgb(195, 219, 235), rgb(132, 162, 245));
 }
 
 body {
-    background-color: white;
+    background-color: blue;
+    box-shadow: 0 0 10px 4px #2c2a969c;
+}
+
+
+/*Header*/
+
+header {
+    background-image: linear-gradient(to top right, rgb(15, 16, 73) , rgb(40, 66, 216));
+}
+
+
+
+/*Form*/
+
+form {
+    background-color: rgb(241, 246, 255);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    background-color: rgb(26, 26, 100);
+    color: white;
+}
+
+/*Student Info*/
+
+#studinfo {
+    outline: black solid 1px;
+}
+
+/*Date and Time*/
+
+#DaT {
+    outline: rgb(26, 26, 100) solid 1px;
+}
+
+
+tr {
+    outline: rgb(26, 26, 100) solid 1px;
+}
+
+th {
+    outline: rgb(135, 190, 235) solid 1px;
+}
+
+td {
+    outline: rgb(26, 26, 100) solid 1px;
+}
+
+/*Classes*/
+
+#CaT {
+    outline: black solid 1px;
+}
+
+/*Footer*/
+
+footer {
+    background-image: linear-gradient(to top right, rgb(15, 16, 73) , rgb(40, 66, 216));
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
 }

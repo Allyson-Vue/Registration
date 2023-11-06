@@ -15,35 +15,46 @@
 <body>
     <header><h1>Advisory Registration Form</h1></header>
     <form>
-        <section id="txtbox">
-            <h3>Student Information:</h3>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+        <h2>Student Information:</h2>
+        <section id="studinfo">
+            <div id="studname">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div id="studemail">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
         </section>
-        <section id="time">
-            <h3>Scheduling:</h3>
-            <h4>Date:</h4>
-            <label for="Months">Month:</label>
-            <select id="Months" name="Months">
-                <option value="Jan">January</option>
-                <option value="Feb">February</option>
-                <option value="Mar">March</option>
-                <option value="Apr">April</option>
-                <option value="May">May</option>
-                <option value="Jun">June</option>
-                <option value="Jul">July</option>
-                <option value="Aug">August</option>
-                <option value="Sep">September</option>
-                <option value="Oct">October</option>
-                <option value="Nov">November</option>
-                <option value="Dec">December</option>
-            </select>
+        <h2>Scheduling:</h2>
+        <section id="DaT">
+            <div id="date">
+            <h3>Date:</h3>
+                <div id="DSelect">
+                    <label for="Months">Month:</label>
+                        <select id="Months" name="Months">
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                        <option value="May">May</option>
+                        <option value="Jun">June</option>
+                        <option value="Jul">July</option>
+                        <option value="Aug">August</option>
+                        <option value="Sep">September</option>
+                        <option value="Oct">October</option>
+                        <option value="Nov">November</option>
+                        <option value="Dec">December</option>
+                        </select>
             <label for="Day">Day:</label>
             <input type="number" id="Day" name="Day" min="1" max="31">
+                </div>
+            </div>
+            <div id="time">
+            <h3>Time:</h3>
+            <div id="timeselect">
             <table>
                 <tr>
                     <th>Time (Hours):</th>
@@ -58,14 +69,17 @@
                     <td><input type="text" id="Room" name="Room"></td>
                 </tr>
             </table>
-
             <label for="am">AM</label>
-            <input type="radio" id="am" name="am">
+            <input type="radio" id="am" name="APM">
             <label for="pm">PM</label>
-            <input type="radio" id="pm" name="pm">
+            <input type="radio" id="pm" name="APM">
+            </div>
+            </div>
         </section>
-        <section id="classes">
-            <h3>Classes:</h3>
+        <h2>Classes:</h2>
+        <section id="CaT">
+            <div id="classes">
+            <h3>Courses:</h3>
             <label for="IntroWeb">Intro to Web Development</label>
             <input type="radio" id="IntroWeb" name="IntroWeb">
             <label for="WebDevI">Web Development I</label>
@@ -78,16 +92,20 @@
             <input type="radio" id="ComProI" name="ComProI">
             <label for="ComProII" name="ComProII">Computer Programming II</label>
             <input type="radio" id="ComProII" name="ComProII">
-            <h4>Teachers:</h4>
+            </div>
+            <div id="prof">
+            <h3>Teachers:</h3>
             <select id="teachers" name="teachers">
                 <option value="TiffF">Tiffany Ford</option>
                 <option value="KirM">Kirsten Markley</option>
                 <option value="JackL">Jackson Lewis</option>
+            </div>
             </select>
         </section>
         <section id="subbutton">
             <input type="submit" id="submit" name="submit">
         </section>
     </form>
+    <footer>©Allyson Vue</footer>
 </body>
 </html>
