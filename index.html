@@ -2,9 +2,43 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    
+    <header><h1>Advisory Registration Form</h1></header>
+    <form>
+        <section id="txtbox">
+            <h3>Student Information:</h3>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </section>
+        <section id="time">
+            <h3>Appointment Time:</h3>
+            <label for="am">AM</label>
+            <input type="radio" id="am" name="am">
+            <label for="pm">PM</label>
+            <input type="radio" id="pm" name="pm">
+        </section>
+        <section id="classes">
+            <h3>Classes:</h3>
+            <label for="DigiAniI">Digital Animation I</label>
+            <input type="radio" id="DigiAniI" name="DigiAniI">
+            <label for="DigiAniII">Digital Animation II</label>
+            <input type="radio" id="DigiAniII" name="DigiAniII">
+            <label for="DigiArtI">Digital Art I</label>
+            <input type="radio" id="DigiArtI" name="DigiArtI">
+            <label for="DigiArtII">Digital Art II</label>
+            <input type="radio" id="DigiArtII" name="DigiArtII">
+            <label for="AniHist">Animation History</label>
+            <input type="radio" id="AniHist" name="AniHist">
+        </section>
+        <section id="subbutton">
+            <input type="submit" id="submit" name="submit">
+        </section>
+    </form>
 </body>
 </html>
